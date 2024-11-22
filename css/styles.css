@@ -1,0 +1,276 @@
+/*Les fonts*/
+
+font-face {
+    font-family: "cantarell";
+    src: url(../fonts/Cantarell-Regular.ttf) format("truetype");
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global page */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "kaushan script", 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 46px;
+}
+
+h2 {
+    font-family: "cantarell", 'Courier New', Courier, monospace;
+    font-weight: 200px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+P{
+        font-family: "cantarell", 'Courier New', Courier, monospace;
+        font-weight: 200px;
+}
+
+
+/* Tel */
+    header {
+    display: flex;
+    flex-direction: column; /* Organise verticalement navigation et contenu */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* En-tête pleine hauteur */
+    background-color: #D37885;
+    position: relative; /* Pour que la navigation soit positionnée en haut */
+    }
+    .navhead {
+        position: absolute; /* Place la navigation en haut */
+        top: 20px; /* Distance du haut de l'écran */
+        left: 50%;
+        transform: translateX(-50%); /* Centre horizontalement */
+        display: flex;
+        gap: 60px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: auto; /* Positionne le logo au centre */
+    }
+
+    .logo img {
+        width: 400px; /* Taille de l'image du logo */
+    }
+
+
+
+    .navhead {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+    .navheadbutton {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        display: inline-block;
+        font-family:"cantarell", 'Courier New', Courier, monospace;
+        font-weight: 200px;
+        text-transform: uppercase;
+    }
+    .navhead li {
+        display: inline-block;
+
+      }
+
+
+    #projets {
+    padding: 20px 0px; 
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .projetimage{
+        background-image: url(../img/layout.png);
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin: 20px auto;
+
+    }
+
+    .techno {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .tecHTLM{
+        width: 64px;
+        height: 64px;
+    }
+
+    .tecCSS{
+        width: 64px;
+        height: 64px;
+    }
+
+    #apropos {
+        padding: 20px 0px;
+        background-color: #D37885
+        
+    }
+
+    #apropos p, #apropos h2 {
+        color: white;
+        text-align: center;
+    }
+
+    #apropos p {
+        margin: auto 20px;
+    }
+    .pdp {
+        justify-content: center;
+        display: flex;
+        margin: 20px auto;
+    }
+
+    #compétences {
+        padding: 20px 0px;
+    }
+
+    #compétences h2 {
+        text-align: center;
+    }   
+
+    #compétences img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    footer {
+        background-color: #D37885;
+        padding: 20px 0px;
+    }
+
+    footer h3 {
+        text-align: center;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    footer p {
+        color: white;
+        text-align: center;
+}
+    .footer-intro {
+        text-align: center;
+    }
+
+    .footer-nav {
+        margin: 10px 0px;
+    }
+
+    .footer-nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style-type: none;
+    }
+
+    .footer-nav li a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .footer-socials {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-socials img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-socials a {
+        display: flex;
+        align-items: center;
+    }
+
+
+
+/* Tablettes */
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    
+}
+
+
+/* Grands écrans */
+@media (min-width: 1367px) {
+    body {
+        font-size: 20px;
+
+    }
+    .conteneurinterne {
+        width: 60%;
+        margin: auto;
+    }
+
+    H1 {
+    font-size: 96px;
+    }
+
+
+    .navheadbutton {
+        margin: 0px 50px;
+        padding: 20px 20px;
+    }
+    .navheadbutton:hover {
+        background-color: white;
+        color: black;
+        transition: 1s;
+        border: black solid 2px;
+    }
+
+
+    .projetimage {
+        background-image: url(../img/layout.png);
+        background-size: cover;
+        height: 400px;
+        width: 400px;
+        margin: 20px auto;
+        transition: 1s;
+    }
+
+    .projetimage:hover {
+        background-image: url(../img/layout.png);
+        background-size: cover;
+        border: black solid 10px;
+        margin: 20px auto;
+        transition: 1s;
+    }
+
+
+}
