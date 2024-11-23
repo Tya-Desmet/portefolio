@@ -155,7 +155,11 @@ P{
     }
     .pdp img {
         border: #736948 dashed 2px;
+        max-width: 100%;
+        width: 200px; 
     }
+
+
     #compétences {
         padding: 20px 0px;
     }
@@ -167,6 +171,12 @@ P{
     #compétences img {
         display: block;
         margin: 20px auto;
+    }
+
+    .moncv {
+        border: #D37885 dashed 2px;
+        max-width: 100%;
+        width: 200px; 
     }
 
     footer {
