@@ -106,7 +106,7 @@ P{
     }
 
     .projetimage{
-        background-image: url(../img/layout.png);
+        background-image: url(../img/portfoliolayout.jpg);
         background-size: cover;
         height: 200px;
         width: 200px;
@@ -257,18 +257,17 @@ P{
 
 
     .projetimage {
-        background-image: url(../img/layout.png);
         background-size: cover;
         height: 400px;
         width: 400px;
         margin: 20px auto;
         transition: 1s;
+        border: #D37885 solid 2px;
     }
 
     .projetimage:hover {
-        background-image: url(../img/layout.png);
         background-size: cover;
-        border: black solid 10px;
+        border: #D37885 solid 15px;
         margin: 20px auto;
         transition: 1s;
     }
