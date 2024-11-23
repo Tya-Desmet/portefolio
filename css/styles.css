@@ -153,7 +153,9 @@ P{
         display: flex;
         margin: 20px auto;
     }
-
+    .pdp img {
+        border: #736948 dashed 2px;
+    }
     #compétences {
         padding: 20px 0px;
     }
