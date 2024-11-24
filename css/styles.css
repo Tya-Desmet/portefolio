@@ -150,7 +150,7 @@ P{
     }
     .pdp {
         justify-content: center;
-        display: flex;
+        display: none; /* Flex si ajout photos*/
         margin: 20px auto;
     }
     .pdp img {
